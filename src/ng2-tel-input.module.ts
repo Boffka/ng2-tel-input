@@ -7,7 +7,7 @@ import { Ng2TelInput } from './ng2-tel-input';
     exports: [Ng2TelInput]
 })
 export class Ng2TelInputModule {
-    static forRoot(): ModuleWithProviders {
+    static forRoot(): ModuleWithProviders<Ng2TelInputModule> {
         return {
             ngModule: Ng2TelInputModule,
             providers: []

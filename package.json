@@ -34,23 +34,23 @@
   },
   "homepage": "https://github.com/gauravsoni119/ng2-tel-input#readme",
   "devDependencies": {
-    "@angular/common": "^8.0.3",
-    "@angular/compiler": "^8.0.3",
-    "@angular/compiler-cli": "^8.0.3",
-    "@angular/core": "^8.0.3",
+    "@angular/common": "^13.3.11",
+    "@angular/compiler": "^13.3.11",
+    "@angular/compiler-cli": "^13.3.11",
+    "@angular/core": "^13.3.11",
     "es6-shim": "^0.35.5",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "reflect-metadata": "^0.1.13",
     "rollup": "^2.0.2",
-    "rxjs": "^6.5.2",
+    "rxjs": "^6.6.7",
     "tsickle": "^0.38.1",
-    "typescript": "~3.4.5",
+    "typescript": "~4.6.4",
     "uglify-js": "^3.8.0",
-    "zone.js": "^0.9.1"
+    "zone.js": "^0.11.4"
   },
   "peerDependencies": {
-    "@angular/core": "^8.0.3"
+    "@angular/core": "^13.3.11"
   },
   "dependencies": {
     "intl-tel-input": "^16.0.0"
