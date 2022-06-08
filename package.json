@@ -16,7 +16,8 @@
     "build:fesm5": "rollup -c rollup-esm5.conf.js",
     "build:umd": "rollup -c rollup-umd.conf.js",
     "build:umd:min": "uglifyjs dist/bundles/ng2-tel-input.umd.js -c -m -o dist/bundles/ng2-tel-input.umd.min.js",
-    "ls": "gulp --tasks"
+    "ls": "gulp --tasks",
+    "postinstall": "npm run build:prod"
   },
   "repository": {
     "type": "git",

@@ -77,7 +77,7 @@ const pack = async (cb) => {
  * @param {Function} cb needs to execute at the end of the function
  */
 const cleanDist = (cb) => {
-    src(path.resolve(__dirname, 'dist')).pipe(clean());
+    src(path.resolve(__dirname, 'dist'), {allowEmpty: true}).pipe(clean());
     cb();
 };
 

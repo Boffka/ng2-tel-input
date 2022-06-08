@@ -19,7 +19,6 @@
         "./tmp/public_api.ts"
     ],
     "angularCompilerOptions": {
-        "annotateForClosureCompiler": true,
         "strictMetadataEmit": true,
         "skipTemplateCodegen": true,
         "flatModuleOutFile": "ng2-tel-input.js",
