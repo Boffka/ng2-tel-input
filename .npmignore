@@ -4,7 +4,3 @@ Thumbs.db
 /compiled
 *.ngFactory.ts
 .DS_Store
-
-# Ignored files
-*.ts
-!*.d.ts
